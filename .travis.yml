@@ -6,7 +6,6 @@
 # - https://github.com/rstudio/bookdown-demo
 
 language: r
-sudo: false
 cache: packages
 pandoc_version: 1.19.2.1
 
