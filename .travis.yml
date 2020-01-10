@@ -10,6 +10,10 @@ language: r
 cache: packages
 pandoc_version: 1.19.2.1
 
+env:
+  global:
+    secure: "kpLh4VEE2PtiQVCbFEhIZV/UmY//UslGxhUyv5d88VfXdGbX1TKXpVk57F27v1Tx26LAu5QreLnOIcHEAE6C0ktC5jJ04TCClVusZBmBOn5W93fH94nUVmJx2VR4llIgduEprDVPCngM6NKuBmqBfc3QNzcwQ8QnX5ik53RXZRveOfW+3GYILAgh2yMClUIVg1E+/d5Qdm1MpSQ3EojV4BbwEKxfZAPp3I+79Bf/TyVzdpdz/rJgsfg0H3Qw9C1NGKqejakzGkQwcGGUBqdgVqWZs/cB48/Xu9l9zHhjHI188MsEj8OEdlVZehoXvRxl11QHMEUbExNm3e0e1NUJcXfMhki2yj7YzrKclEcoARmDtWWenezTeOE6eKZjc0qOWESZ3K6sc/7DwnNKMuBwCmC4DtdVAH4bNELVpkptwAvcF7qWoNtOcuLGEnh4zDCHLyRuvj9onWBpKFbkrxFmkyfe2y4rHmfMfnyzR9nPcVu6B9hNEj9XuG4wqHZmDFxveBst+CBlBRzVqNOYISeFg/bPyltAM0OtLfCt95SA83TeMFmADIILvp+aHRUYApPSeeQFWcEs6byVd1gkRG0W2HinnCf6GKeO0HrqM5l1/L7IobgMRCZ+E8OZK8SciJwbGzTC45ERNqCTbyYtbJ36Ma6V0sa2vHq2u+bcmY7wm+8="
+
 before_script:
   - chmod +x ./_build.sh
   - chmod +x ./_deploy.sh
