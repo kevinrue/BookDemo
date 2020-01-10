@@ -5,6 +5,7 @@
 # - https://bookdown.org/yihui/bookdown/build-the-book.html#build-the-book
 # - https://github.com/rstudio/bookdown-demo
 
+os: linux
 language: r
 cache: packages
 pandoc_version: 1.19.2.1
